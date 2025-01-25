@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#extable caption{
+    padding-bottom: 20px;
+}
+
+#extable tr,td{
+    padding: 6px;
+}
+
+#extable input{
+    border: 0px;
+    outline: none;
+}
+
+#scourse{
+    width: 100%;
+}
+
+#sbtn{
+    width: 100%;
+    background-color: aqua;
+    font-weight: bolder;
+}
+
+#maincontainer{
+    display: flex;
+    justify-content: center;
+}
+
+#delbtn{
+    width: 100%;
+    color: white;
+    background-color: red;
+}

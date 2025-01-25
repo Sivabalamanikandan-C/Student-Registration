@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <table id="extable" border="1">
+            <caption><h2>Student Registration</h2></caption>
+
+            <tr>
+                <td><label for=""><h4>Name</h4></label></td>
+                <td><input type="text" name="sname" placeholder="Enter Student Name" id="sname"></td>
+            </tr>
+
+            <tr>
+                <td><label for=""><h4>Age</h4></label></td>
+                <td><input type="number" placeholder="Enter Age" id="sage"></td>
+            </tr>
+
+            <tr>
+                <td><label for=""><h4>Gender</h4></label></td>
+                <td>
+                    <input type="radio" name="gender" id="gender" value="Male" style="margin-left: 6px;">Male
+                    <input type="radio" name="gender" id="gender" value="Female" style="margin-left: 6px;">Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for=""><h4>Course</h4></label></td>
+                <td>
+                    <select name="course" id="scourse">
+                        <option value="Python">Python</option>
+                        <option value="Java">Java</option>
+                        <option value="Javascript">Javascript</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for=""><h4>E-mail</h4></label></td>
+                <td><input type="email" name="email" id="email" placeholder="Enter Student Email"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><button id="sbtn">Save</button></td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div id="maincontainer">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
